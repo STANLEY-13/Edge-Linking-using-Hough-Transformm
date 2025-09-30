@@ -34,14 +34,16 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Input Image')
 plt.axis('off')
 
-![image](https://github.com/user-attachments/assets/63908ad0-c747-46d6-bb48-9341105b5f9f)
+<img width="642" height="402" alt="image" src="https://github.com/user-attachments/assets/d831171a-1013-4fd7-8d93-c67462b3597e" />
+
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(gray_image, cmap='gray')
 plt.title('Grayscale Image')
 plt.axis('off')
 
-![image](https://github.com/user-attachments/assets/d6104654-0a64-4d5f-aae7-869b272c3c18)
+<img width="647" height="402" alt="image" src="https://github.com/user-attachments/assets/d14decc6-ccd7-4df8-98db-6425d515ddb5" />
+
 
 ### Canny Edge detector output
 
@@ -50,7 +52,8 @@ plt.imshow(gray_image, cmap='gray')
 plt.title('Grayscale Image')
 plt.axis('off')
 
-![image](https://github.com/user-attachments/assets/fcf50a07-34ff-4713-bde0-7a53e24e7ab2)
+<Figure size 640x480 with 1 Axes><img width="515" height="321" alt="image" src="https://github.com/user-attachments/assets/0f4fb3f7-82f9-4e47-8ee6-e596a3b7a023" />
+
 
 
 ### Display the result of Hough transform
@@ -67,7 +70,8 @@ plt.title('Hough Transform - Line Detection')
 plt.axis('off')
 
 
-![image](https://github.com/user-attachments/assets/be59c60c-c285-49e4-a864-21127d96a2de)
+<Figure size 640x480 with 1 Axes><img width="515" height="321" alt="image" src="https://github.com/user-attachments/assets/ac46264c-dff0-43cb-a495-f9b338b9322e" />
+
 
 ### Result:
 Thus,The Python program to detect the lines using Hough Transform run successfully.
